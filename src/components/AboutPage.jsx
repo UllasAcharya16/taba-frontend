@@ -8,36 +8,36 @@ import VismayImg from '../assets/Vismay.jpeg';
 export default function AboutPage({ onBack }) {
   const teamMembers = [
     {
-      name: "Alex Chen",
-      role: "Lead Data Scientist & Co-Founder",
-      description: "PhD in Machine Learning from Stanford. 8+ years experience in fraud detection algorithms and neural networks. Previously led AI initiatives at Google and Tesla.",
+      name: "Ullas Acharya",
+      role: "Team Lead & Backend Developer",
+      description: "The analytical brain of the team. Skilled at breaking down complex problems, performing deep research, and devising logical flows for algorithms and architectures. Takes the lead in designing the core problem-solving strategy and ensuring technical soundness in every aspect of the solution.",
       image: UllasImg,
       linkedin: "https://linkedin.com/in/alexchen-ml",
       email: "alex@cookiebyte.tech",
       github: "https://github.com/alexchen-ml"
     },
     {
-      name: "Sarah Rodriguez",
-      role: "Full-Stack Developer & Co-Founder",
-      description: "Expert in React, Node.js, and cloud architecture. Former senior engineer at Microsoft Azure. Specializes in scalable web applications and real-time data processing.",
+      name: "Shreyas S Bhatt",
+      role: "Research Head & Logical Thinker",
+      description: "The coding wizard. Experienced in full-stack development, database design, and cloud platforms. Translates the team's ideas into functional code and ensures smooth integration between frontend, backend, and any third-party APIs or tools. Also responsible for managing version control and deployment pipelines.",
       image: ShreyasImg,
       linkedin: "https://linkedin.com/in/sarah-rodriguez-dev",
       email: "sarah@cookiebyte.tech",
       github: "https://github.com/sarah-rodriguez"
     },
     {
-      name: "Marcus Johnson",
-      role: "Backend Engineer & Security Specialist",
-      description: "Cybersecurity expert with 6+ years in financial fraud prevention. Former security architect at JPMorgan Chase. Focuses on secure API development and threat detection.",
+      name: "Satvik S bhat",
+      role: "Dashborad Designer & Frontend Developer",
+      description: "The creative eye. Focuses on building intuitive user interfaces, ensuring the app is user-friendly, visually appealing, and aligned with accessibility standards. Designs mockups, dashboards, and interactions that make the product easy to use and impactful",
       image: SatvikImg,
       linkedin: "https://linkedin.com/in/marcus-johnson-security",
       email: "marcus@cookiebyte.tech",
       github: "https://github.com/marcus-security"
     },
     {
-      name: "Emily Zhang",
-      role: "UI/UX Designer & Product Manager",
-      description: "Design thinking specialist with background in fintech UX. Former design lead at Stripe. Creates intuitive interfaces for complex data visualization and analytics platforms.",
+      name: "Vismay M Shettigar",
+      role: "Creative Thinker & Frontend Developer",
+      description: "The storyteller and data interpreter. Responsible for analyzing outputs, visualizing data patterns, and creating easy-to-understand insights. Also leads the preparation of presentations, pitch decks, and demo explanations to clearly communicate the problem, solution, and impact.",
       image: VismayImg,
       linkedin: "https://linkedin.com/in/emily-zhang-design",
       email: "emily@cookiebyte.tech",
